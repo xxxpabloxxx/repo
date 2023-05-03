@@ -15,10 +15,6 @@
       "bundleID": "com.tinkoffbank.mobilebank",
       "appstore": "com.tinkoffbank.mobilebank",
       "enableBackup": true,
-      "screenshots": [
-        "",
-      ]
-    }
     }
   ]
 }
