@@ -1,9 +1,6 @@
 <div align="center">
-    <img src="https://azu0609.github.io/repo/repo.logo.png">
-    <h1>azu0609's repo</h1>
-    <p>Personalized repo for me. hosted in github pages. feel free to send pr!</p>
+    <h1>Hishi's repo</h1>
     <hr />
-    <a href="#"><img src="https://img.shields.io/badge/actions-actions.svg?label=Github&logo=github&style=for-the-badge&color=70a5eb" /></a>
 </div>
 
 > **Warning**
