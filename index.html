@@ -134,14 +134,21 @@
   </head>
 
 <script>
-function copytext(el) {
-    var $tmp = $("<input>");
-    $("body").append($tmp);
-    $tmp.val($(el).text()).select();
-    document.execCommand("copy");
-    $tmp.remove();
-    alert("Ссылка скопирована, теперь добавь её в Scarlet");
-}   
+function myFunction() {
+  /* Находим текстовое поле */
+  var copyText = document.getElementById("myInput");
+
+  /* Выбираем текстовое поле */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* Для мобильных устройств */
+
+   /* Копируем текст из текстового поля */
+  navigator.clipboard.writeText(copyText.value);
+
+  /* Выводим скопированный текст в диалоговом окне */
+  alert("Ссылка скопирована! Теперь перейди в Scarlet и добавь репозиторий");
+}
+
   
 </script>
 
@@ -154,9 +161,9 @@ function copytext(el) {
                 <div class="services">
                     <div class="service">
                        <div id="text1">
-                          <p style="display:none;">https://morphilina.fun/scarlet_repo.json</p>    
+                          <input style="display:none;" type="text" value="https://morphilina.fun/scarlet_repo.json" id="myInput">
                       </div>
-                      <a href="#" onclick="copytext('#text1')">
+                      <a href="#" onclick="myFunction()">
                       <img src="https://cdn-icons-png.flaticon.com/512/8264/8264354.png" width="128" height="128">
                       Скопировать ссылку
                       </a>
