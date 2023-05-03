@@ -5,16 +5,16 @@
   },
   "Tweaked": [
     {
-      "name": "Rosiecord",
-      "version": "178",
+      "name": "Tinkoff Bank",
+      "version": "6.13.5",
       "icon": "https://ipsw.guru/i/27647654_app.png",
       "down": "http://file-st14.karelia.ru/j8wjq7/51fd8417898218bb35c3ab90c2a1eeaa/5f72d94ed09eeef462a81323e60c6f58/tinkoff.ipa",
-      "dev": "acquitelol",
+      "dev": "Tinkoff",
       "category": "Tweaked Apps",
       "description": "Tinkoff Bank Версия: 6.13.5",
       "bundleID": "com.tinkoffbank.mobilebank",
       "appstore": "com.tinkoffbank.mobilebank",
-      "enableBackup": true,
+      "enableBackup": false,
     }
   ]
 }
