@@ -127,19 +127,15 @@
 }
       </style>
   </head>
-<input type="text" value="Привет мир" id="myInput">
-<button onclick="myFunction()">Скопировать текст</button>
-
-<p>Метод document.execCommand() не поддерживается в IE8 и более ранних версиях.</p>
 
 <script>
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999)
-  document.execCommand("copy");
-  alert("Скопировал текст: " + copyText.value);
-}
+function copytext(el) {
+    var $tmp = $("<textarea>");
+    $("body").append($tmp);
+    $tmp.val($(el).text()).select();
+    document.execCommand("copy");
+    $tmp.remove();
+}    
 </script>
 
 
@@ -150,12 +146,10 @@ function myFunction() {
             <div class="services-container">
                 <div class="services">
                     <div class="service">
-                        <p class="coupon-field" id="coupon-field">https://morphilina.fun/scarlet_repo.json</p>
-                        <p class="coupon-alert">Link Copied</p>
-                            <img src="https://azu0609.github.io/assets/projects/repo.logo.png" alt="alt" height="128" width="128">
-                            <h2>Scarlet</h2>
-                            <p class="description">Repository for Scarlet, with automated update</p>
-                        </a>
+                       <div id="text1">
+                          <p style="display:none;">https://morphilina.fun/scarlet_repo.json</p>    
+                      </div>
+                      <button onclick="copytext('#text1')">Скопировать ссылку</button>
                     </div>
                 </div>
             </div>
