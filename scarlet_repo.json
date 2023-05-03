@@ -3,11 +3,11 @@
 		"repoName": "Scarlet Repo",
 		"repoIcon": "https://usescarlet.com/favicon.png"
 	},
-	"Tweaked": [{
+	"Bank": [{
 		"name": "Tinkoff",
-		"version": "6.13.5",
+		"version": "6135",
 		"down": "https://fs13n2.sendspace.com/dl/87718a17fc169f273bef7b0d4c8121a2/6452c5a45b75cab5/b6lt05/tinkoff.ipa",
-		"category": "Tweaked Apps",
+		"category": "Bank Apps",
 		"description": "Tinkoff bank",
 		"bundleID": "ru.tcsbank",
 		"appstore": "ru.tcsbank",
