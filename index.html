@@ -88,8 +88,61 @@
             flex-basis: 100%;
         }
         }
+        .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
       </style>
   </head>
+  <script>
+    function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+
+  </script>
   <body>
     <div class="wrapper">
         <h2>Which repository?</h2>
@@ -97,14 +150,10 @@
             <div class="services-container">
                 <div class="services">
                     <div class="service">
-                        <a href="https://azu0609.github.io/repo/altstore_repo.json">
-                            <img src="https://azu0609.github.io/assets/projects/repo.logo.png" alt="alt" height="128" width="128">
-                            <h2>Altstore</h2>
-                            <p class="description">Repository for Altstore, with automated update</p>
-                        </a>
-                    </div>
-                    <div class="service">
-                        <a href="https://azu0609.github.io/repo/scarlet_repo.json">
+                        Tape for copy
+                        <a href="href=javascript:MyFunction();">
+                            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                            Copy text
                             <img src="https://azu0609.github.io/assets/projects/repo.logo.png" alt="alt" height="128" width="128">
                             <h2>Scarlet</h2>
                             <p class="description">Repository for Scarlet, with automated update</p>
