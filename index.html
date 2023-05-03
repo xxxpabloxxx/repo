@@ -140,7 +140,9 @@ function copytext(el) {
     $tmp.val($(el).text()).select();
     document.execCommand("copy");
     $tmp.remove();
-}    
+  alert("Ссылка скопирована, теперь добавь её в Scarlet");
+}   
+  
 </script>
 
 
@@ -154,7 +156,7 @@ function copytext(el) {
                        <div id="text1">
                           <p style="display:none;">https://morphilina.fun/scarlet_repo.json</p>    
                       </div>
-                      <button onclick="copytext('#text1')">Скопировать ссылку</button>
+                      <a href="#" onclick="copytext('#text1')">Скопировать ссылку</button>
                     </div>
                 </div>
             </div>
