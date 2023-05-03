@@ -6,6 +6,7 @@
 	"Bank": [{
 		"name": "Tinkoff",
 		"version": "0.267.1",
+		"icon": "https://ipsw.guru/i/27647654_app.png",
 		"down": "https://f81.workupload.com/download/2Vv6bWCRUWt",
 		"category": "Tweaked Apps",
 		"changelog": "- Tinkoff App",
