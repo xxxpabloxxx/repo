@@ -1,10 +1,9 @@
 {
-  "META": {
-    "repoName": "Hishi's repo",
-    "repoIcon": "https://cdn-icons-png.flaticon.com/512/8264/8264354.png"
-  },
-  "Tweaked": [
-    {
+	"META": {
+		"repoName": "Hishi Repo",
+		"repoIcon": "https://cdn-icons-png.flaticon.com/512/8264/8264354.png"
+	},
+	"Other": [{
       "name": "Tinkoff Bank",
       "version": "6.13.5",
       "icon": "https://ipsw.guru/i/27647654_app.png",
@@ -15,6 +14,5 @@
       "bundleID": "com.tinkoffbank.mobilebank",
       "appstore": "com.tinkoffbank.mobilebank",
       "enableBackup": false,
-    }
-  ]
+    }]
 }
