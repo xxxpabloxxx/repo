@@ -44,14 +44,14 @@
 		"bundleID": "com.spotify.main.app"
 	},
 	{
-		"name": "TikTok Unicorn",
-		"version": "19.3",
+		"name": "TikTok++ (Russian Unlocked)",
+		"version": "25.9.0",
 		"icon": "https://ipsw.guru/i/tiktok-plus_app.jpg",
-		"down": "https://www.dropbox.com/s/6a9ekdyrwsrnn39/tt.ipa?dl=1",
+		"down": "https://www.dropbox.com/s/ra2orcu5imke6hm/ttik.ipa?dl=1",
 		"category": "Media Apps",
 		"changelog": "- TikTok Unicorn",
 		"description": "Many settings:\nChange Country\n Download video\n and many...",
-		"bundleID": "com.uni.UnicornApp"
+		"bundleID": "com.zhiliaoapp.musically"
 	},
 		]
 }
