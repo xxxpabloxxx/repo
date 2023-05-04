@@ -22,6 +22,16 @@
 		"changelog": "- Tinkoff App",
 		"description": "Tinkoff Bank",
 		"bundleID": "ru.tcsbank.TCSSME"
-	},	
+	},
+	{
+		"name": "Sberbank",
+		"version": "2.84",
+		"icon": "https://ipsw.guru/i/9796293_app.png",
+		"down": "https://www.dropbox.com/s/z509bwxzxhdw8in/sber.ipa?dl=1",
+		"category": "Banks",
+		"changelog": "- Sberbank App",
+		"description": "Sberbank Bank",
+		"bundleID": "ru.sberbank.onlineiphone"
+	},
 		]
 }
