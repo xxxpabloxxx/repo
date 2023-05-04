@@ -37,11 +37,21 @@
 		"name": "Spotify++ (Spotilife and Sposify)",
 		"version": "8.7.70",
 		"icon": "https://ipsw.guru/i/spotify_app.png",
-		"down": "https://www.dropbox.com/s/z509bwxzxhdw8in/sber.ipa?dl=1",
+		"down": "https://github.com/purp0s3/Tweaked-iOS-Apps/releases/download/Spotilife1.8-Spotify8.7.70/Spotify8.7.70_Spotilife1.8.ipa",
 		"category": "Media Apps",
 		"changelog": "- Spotify ++ Cracked Premium",
 		"description": "Spotify ++ Cracked Premium",
 		"bundleID": "com.spotify.main.app"
+	},
+	{
+		"name": "TikTok Unicorn",
+		"version": "19.3",
+		"icon": "https://ipsw.guru/i/tiktok-plus_app.jpg",
+		"down": "https://www.dropbox.com/s/6a9ekdyrwsrnn39/tt.ipa?dl=1",
+		"category": "Media Apps",
+		"changelog": "- TikTok Unicorn",
+		"description": "Many settings:\nChange Country\n Download video\n and many...",
+		"bundleID": "com.uni.UnicornApp"
 	},
 		]
 }
