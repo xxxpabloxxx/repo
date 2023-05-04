@@ -33,5 +33,15 @@
 		"description": "Sberbank Bank",
 		"bundleID": "ru.sberbank.onlineiphone"
 	},
+	{
+		"name": "Spotify++ (Spotilife and Sposify)",
+		"version": "8.7.70",
+		"icon": "https://ipsw.guru/i/spotify_app.png",
+		"down": "https://www.dropbox.com/s/z509bwxzxhdw8in/sber.ipa?dl=1",
+		"category": "Media Apps",
+		"changelog": "- Spotify ++ Cracked Premium",
+		"description": "Spotify ++ Cracked Premium",
+		"bundleID": "com.spotify.main.app"
+	},
 		]
 }
