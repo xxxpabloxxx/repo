@@ -8,9 +8,20 @@
 		"version": "6.13.5",
 		"icon": "https://ipsw.guru/i/27647654_app.png",
 		"down": "https://www.dropbox.com/s/afgu9frxlqzbh5y/tinkoff.ipa?dl=1",
-		"category": "Tweaked Apps",
+		"category": "Banks",
 		"changelog": "- Tinkoff App",
 		"description": "Tinkoff Bank",
-		"bundleID": "ru.tcsbank"
-	}]
+		"bundleID": "ru.tcsbank.TCSMBiPhone"
+	},
+	{
+		"name": "Tinkoff Buisness",
+		"version": "2.84",
+		"icon": "https://ipsw.guru/i/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81_app.jpeg",
+		"down": "https://www.dropbox.com/s/s4fgydxfztzb350/tinkoffbuisnes.ipa?dl=1",
+		"category": "Banks",
+		"changelog": "- Tinkoff App",
+		"description": "Tinkoff Bank",
+		"bundleID": "ru.tcsbank.TCSSME"
+	},	
+		]
 }
