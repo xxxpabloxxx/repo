@@ -3,12 +3,12 @@
 		"repoName": "Hishi Repo",
 		"repoIcon": "https://cdn-icons-png.flaticon.com/512/6360/6360282.png"
 	},
-	"Bank": [{
+	"Apps": [{
 		"name": "Tinkoff",
 		"version": "6.13.5",
 		"icon": "https://ipsw.guru/i/27647654_app.png",
 		"down": "https://www.dropbox.com/s/afgu9frxlqzbh5y/tinkoff.ipa?dl=1",
-		"category": "Banks",
+		"category": "Банки",
 		"changelog": "- Tinkoff App",
 		"description": "Tinkoff Bank",
 		"bundleID": "ru.tcsbank.TCSMBiPhone"
@@ -18,7 +18,17 @@
 		"version": "2.84",
 		"icon": "https://ipsw.guru/i/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81_app.jpeg",
 		"down": "https://www.dropbox.com/s/s4fgydxfztzb350/tinkoffbuisnes.ipa?dl=1",
-		"category": "Banks",
+		"category": "Банки",
+		"changelog": "- Tinkoff App",
+		"description": "Tinkoff Bank",
+		"bundleID": "ru.tcsbank.TCSSME"
+	},
+	{
+		"name": "Tinkoff Бухгалтерия",
+		"version": "2.15.1",
+		"icon": "https://ipsw.guru/i/434x0w_app.jpeg",
+		"down": "https://www.dropbox.com/s/q41l6twkxttzryd/TinkoffIP.ipa?dl=1",
+		"category": "Банки",
 		"changelog": "- Tinkoff App",
 		"description": "Tinkoff Bank",
 		"bundleID": "ru.tcsbank.TCSSME"
@@ -28,7 +38,7 @@
 		"version": "2.84",
 		"icon": "https://ipsw.guru/i/9796293_app.png",
 		"down": "https://www.dropbox.com/s/z509bwxzxhdw8in/sber.ipa?dl=1",
-		"category": "Banks",
+		"category": "Банки",
 		"changelog": "- Sberbank App",
 		"description": "Sberbank Bank",
 		"bundleID": "ru.sberbank.onlineiphone"
@@ -38,7 +48,7 @@
 		"version": "8.7.70",
 		"icon": "https://i.imgur.com/DXPwfKt.png",
 		"down": "https://www.dropbox.com/s/au8fu0tap5zi8p9/spoty.ipa?dl=1",
-		"category": "Media Apps",
+		"category": "Медиа",
 		"changelog": "- Spotify ++ Cracked Premium",
 		"description": "Spotify ++ Cracked Premium",
 		"bundleID": "com.spotify.main.app"
@@ -48,7 +58,7 @@
 		"version": "25.9.0",
 		"icon": "https://ipsw.guru/i/tiktok-plus_app.jpg",
 		"down": "https://www.dropbox.com/s/ra2orcu5imke6hm/ttik.ipa?dl=1",
-		"category": "Media Apps",
+		"category": "Медиа",
 		"changelog": "- TikTok Unicorn",
 		"description": "Many settings:\nChange Country\n Download video\n and many...",
 		"bundleID": "com.zhiliaoapp.musically"
