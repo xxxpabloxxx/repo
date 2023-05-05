@@ -63,5 +63,15 @@
 		"description": "Many settings:\nChange Country\n Download video\n and many...",
 		"bundleID": "com.zhiliaoapp.musically"
 	},
+	{
+		"name": "Null Clash",
+		"version": "6.0",
+		"icon": "https://i.imgur.com/VqHt6lp.png",
+		"down": "https://www.dropbox.com/s/7n74aw70y9fp4x5/nclash.ipa?dl=1",
+		"category": "Игры",
+		"changelog": "v6.0",
+		"description": "✅Приватный сервер\n✅Абсолютно все открыто\n✅Возможность играть без VPN",
+		"bundleID": "nt.nc.ios1"
+	},
 		]
 }
