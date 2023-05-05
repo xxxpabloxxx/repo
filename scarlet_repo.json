@@ -83,5 +83,15 @@
 		"description": "Чтобы играть без VPN, нужно установить профиль:\nhttp://dnull.xyz/nullsproxy.mobileconfig\n✅Приватный сервер\n✅Абсолютно все открыто\n✅Возможность играть без VPN",
 		"bundleID": "com.supercell.laser"
 	},
+	{
+		"name": "TeraBox",
+		"version": "1",
+		"icon": "https://i.imgur.com/Q8kRoQf.png",
+		"down": "https://www.dropbox.com/s/cis4y6zhmqy09nu/terabox.ipa?dl=1",
+		"category": "Прочее",
+		"changelog": "v1.0",
+		"description": "1TB памяти",
+		"bundleID": "com.dubox.drive"
+	},
 		]
 }
