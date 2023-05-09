@@ -1,12 +1,13 @@
 {
     "name": "Hishimiro Repo",
     "identifier": "fun.morphilina.repo",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
     "sourceURL": "https://morphilina.fun/esign.json",
     "apps": [
         {
             "name": "Tinkoff",
-            "bundleIdentifier": "p3.xyz.yyyue.esign",
-            "developerName": "yyy",
+            "bundleIdentifier": "ru.tcsbank.TCSMBiPhone",
+            "developerName": "hishimiro",
             "version": "6.13.5",
             "versionDescription": "",
             "downloadURL": "https://www.dropbox.com/s/afgu9frxlqzbh5y/tinkoff.ipa?dl=1",
@@ -14,8 +15,36 @@
             "iconURL": "https://ipsw.guru/i/27647654_app.png",
             "tintColor": "018084",
             "isLanZouCloud": 0,
-            "size": 7206362,
+            "size": 131072,
             "type": 1
-        }
+        },
+        {
+            "name": "Tinkoff Buisness",
+		    "version": "2.84",
+            "bundleIdentifier": "ru.tcsbank.TCSSME",
+            "developerName": "hishimiro",
+            "versionDescription": "",
+            "downloadURL": "https://www.dropbox.com/s/s4fgydxfztzb350/tinkoffbuisnes.ipa?dl=1",
+            "localizedDescription": "",
+            "iconURL": "https://ipsw.guru/i/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81_app.jpeg",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 131072,
+            "type": 1
+        },
+        {
+            "name": "Tinkoff Бухгалтерия",
+		    "version": "2.15.1",
+            "bundleIdentifier": "ru.tcsbank.TCSSME",
+            "developerName": "hishimiro",
+            "versionDescription": "",
+            "downloadURL": "https://www.dropbox.com/s/q41l6twkxttzryd/TinkoffIP.ipa?dl=1",
+            "localizedDescription": "",
+            "iconURL": "https://ipsw.guru/i/434x0w_app.jpeg",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 131072,
+            "type": 1
+        },
     ]
 }
