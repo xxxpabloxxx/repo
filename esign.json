@@ -46,5 +46,19 @@
             "size": 131072,
             "type": 1
         },
+	{
+            "name": "TikTok++ (Russian Unlocked)",
+		"version": "25.9.0",
+            "bundleIdentifier": "com.zhiliaoapp.musically",
+            "developerName": "hishimiro",
+            "versionDescription": "",
+            "downloadURL": "https://www.dropbox.com/s/ra2orcu5imke6hm/ttik.ipa?dl=1",
+            "localizedDescription": "",
+            "iconURL": "https://ipsw.guru/i/tiktok-plus_app.jpg",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 131072,
+            "type": 1
+        },
     ]
 }
