@@ -148,7 +148,20 @@ function myFunction() {
   /* Выводим скопированный текст в диалоговом окне */
   alert("Ссылка скопирована! Теперь перейди в Scarlet и добавь репозиторий");
 }
+function esign() {
+  /* Находим текстовое поле */
+  var copyText = document.getElementById("esign");
 
+  /* Выбираем текстовое поле */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* Для мобильных устройств */
+
+   /* Копируем текст из текстового поля */
+  navigator.clipboard.writeText(copyText.value);
+
+  /* Выводим скопированный текст в диалоговом окне */
+  alert("Ссылка скопирована! Теперь перейди в E-Sign и добавь репозиторий");
+}
   
 </script>
 
@@ -174,9 +187,9 @@ function myFunction() {
                 <div class="services">
                     <div class="service">
                        <div id="text1">
-                          <input style="display:none;" type="text" value="https://morphilina.fun/esign.json" id="myInput">
+                          <input style="display:none;" type="text" value="https://morphilina.fun/esign.json" id="esign">
                       </div>
-                      <a href="#" onclick="myFunction()">
+                      <a href="#" onclick="esign()">
                       <img src="https://cdn-icons-png.flaticon.com/512/8264/8264354.png" width="128" height="128">
                       Скопировать ссылку E-Sign
                       </a>
