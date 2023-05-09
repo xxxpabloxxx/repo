@@ -1,6 +1,6 @@
 {
   "name": "My Example Source",
-  "identifier": "com.example.MyApps",
+  "identifier": "com.hishimiro.MyApps",
   "subtitle": "A source for all of my apps",
   "description": "Welcome to my source! Here you'll find all of my apps.",
   "iconURL": "https://example.com/source_icon.png",
