@@ -133,38 +133,6 @@
       </style>
   </head>
 
-<script>
-function myFunction() {
-  /* Находим текстовое поле */
-  var copyText = document.getElementById("myInput");
-
-  /* Выбираем текстовое поле */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* Для мобильных устройств */
-
-   /* Копируем текст из текстового поля */
-  navigator.clipboard.writeText(copyText.value);
-
-  /* Выводим скопированный текст в диалоговом окне */
-  alert("Ссылка скопирована! Теперь перейди в Scarlet и добавь репозиторий");
-}
-function esign() {
-  /* Находим текстовое поле */
-  var copyText = document.getElementById("esign");
-
-  /* Выбираем текстовое поле */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* Для мобильных устройств */
-
-   /* Копируем текст из текстового поля */
-  navigator.clipboard.writeText(copyText.value);
-
-  /* Выводим скопированный текст в диалоговом окне */
-  alert("Ссылка скопирована! Теперь перейди в E-Sign и добавь репозиторий");
-}
-  
-</script>
-
 
   <body>
     <div class="wrapper">
@@ -173,10 +141,8 @@ function esign() {
             <div class="services-container">
                 <div class="services">
                     <div class="service">
-                       <div id="text1">
-                          <input style="display:none;" type="text" value="https://morphilina.fun/scarlet_repo.json" id="myInput">
-                      </div>
-                      <a href="#" onclick="myFunction()">
+
+                      <a href="scarlet://repo=https://morphilina.fun/scarlet_repo.json" class="btns btn-secondary-grey linksmart">
                       <img src="https://cdn-icons-png.flaticon.com/512/8264/8264354.png" width="128" height="128">
                       Скопировать ссылку Scarlet
                       </a>
@@ -186,10 +152,7 @@ function esign() {
           <div class="services-container">
                 <div class="services">
                     <div class="service">
-                       <div id="text1">
-                          <input style="display:none;" type="text" value="https://morphilina.fun/esign.json" id="esign">
-                      </div>
-                      <a href="#" onclick="esign()">
+                      <a href="esign://addsource?url=https://morphilina.fun/esign.json" class="btns btn-secondary-grey linksmart">
                       <img src="https://cdn-icons-png.flaticon.com/512/8264/8264354.png" width="128" height="128">
                       Скопировать ссылку E-Sign
                       </a>
