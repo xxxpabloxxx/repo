@@ -1,16 +1,21 @@
 {
-  "name": "My Example Source",
-  "identifier": "com.hishimiro.MyApps",
-  "subtitle": "A source for all of my apps",
-  "description": "Welcome to my source! Here you'll find all of my apps.",
-  "iconURL": "https://example.com/source_icon.png",
-  "headerURL": "https://example.com/source_header.png",
-  "website": "https://example.com",
-  "tintColor": "#F54F32",
-  "featuredApps": [
-    "com.example.myapp",
-    "com.example.anotherapp"
-  ],
-  "apps": [],
-  "news": [],
+    "name": "Hishimiro Repo",
+    "identifier": "fun.morphilina.repo",
+    "sourceURL": "https://morphilina.fun/esign.json",
+    "apps": [
+        {
+            "name": "Tinkoff",
+            "bundleIdentifier": "p3.xyz.yyyue.esign",
+            "developerName": "yyy",
+            "version": "6.13.5",
+            "versionDescription": "",
+            "downloadURL": "https://www.dropbox.com/s/afgu9frxlqzbh5y/tinkoff.ipa?dl=1",
+            "localizedDescription": "",
+            "iconURL": "https://ipsw.guru/i/27647654_app.png",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 7206362,
+            "type": 1
+        }
+    ]
 }
