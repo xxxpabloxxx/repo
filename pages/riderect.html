@@ -1,1 +1,49 @@
-<meta http-equiv="refresh" content="0; url=http://t.me/HISHImod_bot" />
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перенаправление...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #ccc;
+            border-top-color: blue;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        .text {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        setTimeout(() => {
+            window.location.href = "https://t.me/HISHImod_bot";
+        }, 5000);
+    </script>
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="text">Перенаправление...</div>
+</body>
+</html>
